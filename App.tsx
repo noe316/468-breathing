@@ -123,7 +123,7 @@ const App: React.FC = () => {
       {/* Header */}
       <header className="mb-10 text-center">
         <h1 
-            className="text-3xl md:text-6xl font-thin mb-2 tracking-tight flex items-center justify-center" 
+            className="text-3xl md:text-6xl font-semibold mb-2 tracking-tight flex items-center justify-center"
             style={{ color: Theme.Main }}
         >
             4<span className="text-slate-600 mx-2 font-thin">-</span>6<span className="text-slate-600 mx-2 font-thin">-</span>8

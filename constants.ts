@@ -42,16 +42,21 @@ export const Theme = {
     // Border: '#4A453D',        // Surface보다 어둡고 Background보다 밝게 설정
 
 
-  Main: '#ef906c',       // Sky 400 (Inhale - Air/Oxygen)
-  MainLight: '#d3a0a3',  // Slate 600 (Exhale/Idle - Grounding)
-  Sub: '#b55da1',        // Sky 500 (Secondary/Interactables)
-  Background: 'rgb(9,17,45)', // Slate 950 (Deepest Night)
-  Surface: '#160000',    // Slate 900 (Cards)
-  TextPrimary: '#F1F5F9', // Slate 100
-  TextSecondary: '#94A3B8', // Slate 400 (Muted)
-  Accent: '#2DD4BF',     // Teal 400 (Hold - Balance)
-  Success: '#34D399',    // Emerald 400
-  Border: '#1E293B',     // Slate 800
+    Main: '#8CB8C6',          // Soft Air Blue-Green
+    MainLight: '#BBD4DB',     // Misty Blue (hover / idle)
+    // Exhale(날숨) / Idle
+    Sub: '#A89F94',           // Warm Gray-Beige (안정·이완)
+    // 배경 계열
+    Background: '#1E2224',    // Deep Calm Blue-Gray
+    Surface: '#2A2F31',       // Card / Panel
+    // 텍스트
+    TextPrimary: '#E7EBED',   // Soft White
+    TextSecondary: '#B0B5B8', // Muted Gray
+    // Hold(정지): 중립·균형·심박 안정
+    Accent: '#C6B6D9',        // Muted Lavender (Hold 단계 시각적으로 가장 안정적)
+    // 성공/완료 등에 사용할 보조
+    Success: '#7EBF9D',       // Desaturated Green (안정·균형·회복)
+    Border: '#3A3F41',        // Soft Dark Border
 };
 
 // ==========================================
