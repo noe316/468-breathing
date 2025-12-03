@@ -118,7 +118,7 @@ const App: React.FC = () => {
   const totalTimeSeconds = targetCycles * oneLoopTime;
 
   return (
-    <div style={containerStyle} className="flex flex-col items-center py-12 px-6 transition-colors duration-500 font-sans selection:bg-indigo-500 selection:text-white">
+    <div style={containerStyle} className="flex flex-col items-center pt-6 pb-12 px-6 transition-colors duration-500 font-sans selection:bg-indigo-500 selection:text-white">
       
       {/* Header */}
       <header className="mb-10 text-center">
@@ -238,9 +238,21 @@ const App: React.FC = () => {
         <DailyStats stats={stats} />
       </div>
 
-      <footer className="mt-10 text-[10px] uppercase tracking-widest opacity-30" style={{ color: Theme.TextSecondary }}>
-        © {new Date().getFullYear()} Minimal Breath
-      </footer>
+        <footer
+            className="mt-10 text-[10px] uppercase tracking-widest opacity-30 flex flex-col items-center gap-1"
+            style={{ color: Theme.TextSecondary }}
+        >
+            <a
+                href="https://instagram.com/_noe.noe.noe_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] "
+                style={{ color: Theme.TextPrimary }}
+            >
+                @_noe.noe.noe_
+            </a>
+            {new Date().getFullYear()} Minimal Breath
+        </footer>
     </div>
   );
 };
