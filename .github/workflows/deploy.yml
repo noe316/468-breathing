@@ -1,4 +1,4 @@
-name: Deploy 4-6-8 breathing app to GitHub Pages
+name: Deploy 4-7-8 breathing app to GitHub Pages
 
 on:
   push:

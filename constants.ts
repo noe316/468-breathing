@@ -60,7 +60,7 @@ export const Theme = {
 };
 
 // ==========================================
-// BREATHING CONFIGURATION (4-6-8)
+// BREATHING CONFIGURATION (4-7-8)
 // ==========================================
 export const BREATHING_CONFIG: Record<BreathingPhase, PhaseConfig> = {
   [BreathingPhase.IDLE]: { duration: 0, label: 'Ready', instruction: 'Set your goal' },

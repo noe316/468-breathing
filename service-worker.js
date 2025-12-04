@@ -1,10 +1,10 @@
-const CACHE_NAME = "468-breathing-v1";
+const CACHE_NAME = "minimal-breath-v1";
 const URLS_TO_CACHE = [
-    "/468-breathing/",
-    "/468-breathing/index.html",
-    "/468-breathing/manifest.webmanifest",
-    "/468-breathing/icon-192.png",
-    "/468-breathing/icon-512.png",
+    "/minimal-breath/",
+    "/minimal-breath/index.html",
+    "/minimal-breath/manifest.webmanifest",
+    "/minimal-breath/icon-192.png",
+    "/minimal-breath/icon-512.png",
     // 필요하면 CSS/JS 번들도 추가 (예: ./assets/index-xxxxx.js, ./assets/index-xxxxx.css)
 ];
 

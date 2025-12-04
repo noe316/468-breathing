@@ -19,7 +19,7 @@ if ("serviceWorker" in navigator) {
         const swUrl = `${import.meta.env.BASE_URL}service-worker.js`;
         // import.meta.env.BASE_URL
         // dev 모드: /
-        // GitHub Pages 배포 후: /468-breathing/
+        // GitHub Pages 배포 후: /minimal-breath/
         navigator.serviceWorker
             .register(swUrl)
             .catch((err) => {
