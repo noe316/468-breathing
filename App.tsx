@@ -114,7 +114,7 @@ const App: React.FC = () => {
     minHeight: '100vh',
   };
 
-  const oneLoopTime = 18; // 4+6+8
+  const oneLoopTime = 19; // 4+7+8
   const totalTimeSeconds = targetCycles * oneLoopTime;
 
   return (
@@ -126,7 +126,7 @@ const App: React.FC = () => {
             className="text-3xl md:text-5xl font-semibold mb-2 tracking-tight flex items-center justify-center"
             style={{ color: Theme.Main }}
         >
-            4<span className="text-slate-600 mx-2 font-thin">-</span>6<span className="text-slate-600 mx-2 font-thin">-</span>8
+            4<span className="text-slate-600 mx-2 font-thin">-</span>7<span className="text-slate-600 mx-2 font-thin">-</span>8
         </h1>
         <p className="text-slate-500 tracking-widest uppercase text-xs">Breath Flow</p>
       </header>
@@ -151,10 +151,10 @@ const App: React.FC = () => {
                 </p>
             </>
         ) : phase === BreathingPhase.COMPLETED ? (
-             <p className="text-3xl font-bold uppercase tracking-widest text-emerald-400">Completed</p>
+             <p className="text-3xl font-bold uppercase tracking-widest text-emerald-400">Relaxed</p>
         ) : (
             // Empty space or simple Ready text when IDLE
-             <p className="text-3xl font-bold uppercase tracking-widest opacity-20">Ready</p>
+             <p className="text-3xl font-bold uppercase tracking-widest opacity-20">Settle In</p>
         )}
       </div>
 
@@ -253,7 +253,7 @@ const App: React.FC = () => {
       </div>
 
         <footer
-            className="mt-10 text-[10px] uppercase tracking-widest opacity-30 flex flex-col items-center gap-1"
+            className="inline-flex mt-10 text-[10px] uppercase tracking-widest opacity-30 flex flex-col items-center gap-1"
             style={{ color: Theme.TextSecondary }}
         >
           <a
@@ -264,7 +264,7 @@ const App: React.FC = () => {
             style={{color: Theme.Main}}
           >@_noe.noe.noe_
           </a>
-            {new Date().getFullYear()} Minimal Breath
+          <span>{new Date().getFullYear()} Minimal Breath</span>
         </footer>
     </div>
   );

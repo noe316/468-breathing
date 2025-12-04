@@ -23,20 +23,20 @@ const DailyStats: React.FC<DailyStatsProps> = ({ stats }) => {
     <div className="w-full max-w-md mx-auto mt-8 animate-fade-in">
       
       {/* Header Row */}
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-end mb-6">
         <div>
           <h2 className="text-xl font-light" style={{ color: Theme.Main }}>
             &#10004; Daily Progress
           </h2>
-          <a
-            href="https://instagram.com/_noe.noe.noe_"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[14px] "
-            style={{ color: Theme.Main }}
-          >
-            More tools like this @_noe.noe.noe_
-          </a>
+          {/*<a*/}
+          {/*  href="https://instagram.com/_noe.noe.noe_"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*  className="text-[14px] opacity-80"*/}
+          {/*  style={{ color: Theme.Sub }}*/}
+          {/*>*/}
+          {/*  More tools like this @_noe.noe.noe_*/}
+          {/*</a>*/}
         </div>
 
         <button
