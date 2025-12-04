@@ -1,12 +1,12 @@
 {
-  "name": "468 Breathing",
-  "short_name": "468",
-  "description": "Guided 4-6-8 breathing timer for calm and relaxation.",
-  "start_url": ".",
-  "scope": ".",
+  "name": "478 Breathing",
+  "short_name": "478",
+  "description": "Guided 4-7-8 breathing timer for calm and relaxation. Author IG @_noe.noe.noe_",
+  "scope": "/minimal-breath/",
+  "display": "standalone",
   "icons": [
     {
-      "src": "icons/web-app-manifest-192x192.png",
+       "src": "icons/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
@@ -20,5 +20,4 @@
   ],
   "theme_color": "#fff",
   "background_color": "#000",
-  "display": "standalone"
 }
