@@ -1,4 +1,4 @@
-const CACHE_NAME = "minimal-breath-v2";
+const CACHE_NAME = "minimal-breath-v3";
 const URLS_TO_CACHE = [
     "/minimal-breath/",
     "/minimal-breath/index.html",
